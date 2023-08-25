@@ -1,69 +1,47 @@
-# Python "match" feature for processing patterns and match data.
+# Python "match" feature for Processing Patterns and Matching Data
 
-![python_match_img]()
+![python_match_img](https://github.com/ArkadiiOlshevskyi/python_match/blob/main/img/match_python.png?raw=true)
 
-Welcome to the README for Python's powerful "match" feature, introduced in Python 3.11. This feature offers advanced pattern matching capabilities, enabling developers to efficiently process and match various types of data. In this document, we'll explore diverse use cases to help you harness the full potential of the "match" functionality
+This README explores Python's powerful "match" feature, introduced in Python 3.11. This feature offers advanced pattern matching capabilities, enabling developers to efficiently process and match various types of data. In this document, we'll dive into diverse use cases to help you harness the full potential of the "match" functionality.
 
-# Contents
-- [Python "match" feature for processing patterns and match data.](#python-match-feature-for-processing-patterns-and-match-data)
-- [Contents](#contents)
-- [Examples:](#examples)
-  - [1. Process data source](#1-process-data-source)
-  - [2. Matching data in list, dict, array, tuple](#2-matching-data-in-list-dict-array-tuple)
-  - [3. Monitor data quality](#3-monitor-data-quality)
-  - [4. Match for classes and objects](#4-match-for-classes-and-objects)
-  - [5. Trafic light switcher| pedastrian](#5-trafic-light-switcher-pedastrian)
-  - [6. Function calling](#6-function-calling)
-  - [7. Handkle server responce](#7-handkle-server-responce)
-  - [8. Process event - user behavior](#8-process-event---user-behavior)
-  - [9. match username email password](#9-match-username-email-password)
+## Contents
+- [1. Process Data Source](#1-process-data-source)
+- [2. Matching Data in Lists, Dicts, Arrays, and Tuples](#2-matching-data-in-lists-dicts-arrays-and-tuples)
+- [3. Monitor Data Quality](#3-monitor-data-quality)
+- [4. Match for Classes and Objects](#4-match-for-classes-and-objects)
+- [5. Traffic Light Switcher and Pedestrian](#5-traffic-light-switcher-and-pedestrian)
+- [6. Function Calling](#6-function-calling)
+- [7. Handle Server Response](#7-handle-server-response)
+- [8. Process Event - User Behavior](#8-process-event---user-behavior)
+- [9. Match Usernames, Emails, and Passwords](#9-match-usernames-emails-and-passwords)
 
+## Examples
 
+### 1. Process Data Source
+Leverage the match pattern to effectively track and categorize file types such as JSON, XML, CSV, and more. By parsing files within a designated folder, automate the process of identifying various file formats and executing specific actions accordingly.
 
-# Examples:
+### 2. Matching Data in Lists, Dicts, Arrays, and Tuples
+Demonstrating the versatility of the match pattern, dive into examples involving different data structures such as lists, dictionaries, arrays, and tuples. By applying pattern matching to these structures, efficiently extract, transform, or process specific elements based on predefined patterns.
 
-## 1. Process data source
-In this scenario, we'll leverage the match pattern to effectively track and categorize file types such as JSON, XML, CSV, and more. By parsing files within a designated folder, we can automate the process of identifying various file formats and executing specific actions accordingly.
+### 3. Monitor Data Quality
+The match pattern can be used to assess and ensure the quality of incoming data. While the specifics depend on your use case, the match feature allows you to easily identify data patterns that deviate from the expected norm, triggering appropriate actions or alerts.
 
+### 4. Match for Classes and Objects
+Explore how the match pattern can enhance object-oriented programming by creating classes and associated objects. By employing pattern matching, efficiently filter and extract objects that satisfy certain criteria, enabling targeted and dynamic manipulations within our program.
 
-## 2. Matching data in list, dict, array, tuple 
+### 5. Traffic Light Switcher and Pedestrian
+Imagine implementing a traffic light system using the match feature. Through a continuous loop, the lights alternate between red, yellow, and green. The loop only breaks when a user inputs 'S' in the terminal, pausing the cycle for 10 seconds to allow pedestrians to cross. By matching commands like 'S', 'stop', or 'pause', synchronize user input with the functioning of the lights.
 
-Demonstrating the versatility of the match pattern, we'll dive into examples involving different data structures such as lists, dictionaries, arrays, and tuples. By applying pattern matching to these structures, we can efficiently extract, transform, or process specific elements based on predefined patterns
-
-
-## 3. Monitor data quality
-
-In this scenario, the match pattern can be used to assess and ensure the quality of incoming data. While the specifics depend on your use case, the match feature allows you to easily identify data patterns that deviate from the expected norm, triggering appropriate actions or alerts.
-
-
-## 4. Match for classes and objects
-
-Explore how the match pattern can enhance object-oriented programming by creating classes and associated objects. By employing pattern matching, we can efficiently filter and extract objects that satisfy certain criteria, enabling targeted and dynamic manipulations within our program.
-
-
-## 5. Trafic light switcher| pedastrian
-
-Imagine implementing a traffic light system using the match feature. Through a continuous loop, the lights alternate between red, yellow, and green. The loop only breaks when a user inputs 'S' in the terminal, pausing the cycle for 10 seconds to allow pedestrians to cross. By matching commands like 'S', 'stop', or 'pause', we synchronize user input with the functioning of the lights.
-
-
-## 6. Function calling
-
+### 6. Function Calling
 Discover how the match pattern can trigger function calls within a Django e-commerce application. For instance, when a user initiates a "checkout" action, the match pattern can seamlessly direct the user to the checkout page. Similarly, interactions like "add to cart" can be handled through the appropriate functions.
 
+### 7. Handle Server Response
+Simulate a 24/7 server operation using a continuous loop. By sending POST requests to the server and receiving responses, apply the match pattern to efficiently categorize and process the different types of server responses. This allows focusing on tracking only specific response categories, such as success (200 OK), redirects (300), client errors (400), and server errors (500). All requests: [Mozilla HTTP Status](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#information_responses)
 
-## 7. Handkle server responce
+### 8. Process Event - User Behavior
+Harness the power of the match pattern to analyze and respond to user behavior in a Django web service. By defining patterns that capture different types of user interactions or events, tailor application responses to specific scenarios or triggers.
 
-Simulate a 24/7 server operation using a continuous loop. By sending POST requests to the server and receiving responses, we can apply the match pattern to efficiently categorize and process the different types of server responses. This allows us to focus on tracking only specific response categories, such as success (200 OK), redirects (300), client errors (400), and server errors (500).
-All requests:
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#information_responses
-
-
-## 8. Process event - user behavior
-
-Harness the power of the match pattern to analyze and respond to user behavior in a Django web service. By defining patterns that capture different types of user interactions or events, we can tailor our application's responses to specific scenarios or triggers
-
-## 9. match username email password
-
+### 9. Match Usernames, Emails, and Passwords
 Create a dictionary containing user information, including usernames, email addresses, and passwords. Through terminal input, users can provide their credentials, and the match pattern will facilitate a comparison with the stored data, enabling authentication and access control.
 
 Thank you!
