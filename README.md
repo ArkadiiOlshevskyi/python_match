@@ -14,6 +14,8 @@ This README explores Python's powerful "match" feature, introduced in Python 3.1
 - [7. Handle Server Response](#7-handle-server-response)
 - [8. Process Event - User Behavior](#8-process-event---user-behavior)
 - [9. Match Usernames, Emails, and Passwords](#9-match-usernames-emails-and-passwords)
+- [10. Matching Pin Entry Process](###-10.-matching-pin-entry-process)
+
 
 ## Examples
 
@@ -43,5 +45,8 @@ Harness the power of the match pattern to analyze and respond to user behavior i
 
 ### 9. Match Usernames, Emails, and Passwords
 Create a dictionary containing user information, including usernames, email addresses, and passwords. Through terminal input, users can provide their credentials, and the match pattern will facilitate a comparison with the stored data, enabling authentication and access control.
+
+### 10. Matching PIN entering
+In this authentication process, users input a numerical pin via the terminal, which is then compared against a dataset of 10 valid pins consisting only of digits. Successful matching grants access, while discrepancies result in denied login attempts. Balancing user convenience with security, this method ensures straightforward yet secure user authentication
 
 Thank you!
